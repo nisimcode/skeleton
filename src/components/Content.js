@@ -1,11 +1,7 @@
-export default function Content() {
+export default function Content({ searchValue }) {
   return (
     <>
-      {
-        [...Array(1000).keys()].map((i) => (
-          <p key={i}>{i},&nbsp;</p>
-        ))
-      }
+      <h1>{searchValue}  </h1>
     </>
   )
 }

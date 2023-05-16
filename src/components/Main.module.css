@@ -1,0 +1,18 @@
+.search_area {
+  border: 2px dotted red;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.content_area {
+  border: 2px dotted red;
+  display: flex;
+  flex-wrap: wrap;
+  grid-auto-flow: column;
+
+}
+
+

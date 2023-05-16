@@ -1,9 +1,7 @@
-import styles from './page.module.css'
-import SideBar from '../components/SideBar'
-import SearchBar from '../components/SearchBar'
 import Logo from '../components/Logo'
-import Content from '../components/Content'
-
+import Main from '../components/Main'
+import SideBar from '../components/SideBar'
+import styles from './page.module.css'
 export default function Home() {
   return (
     <div className={styles.home_container}>
@@ -15,12 +13,7 @@ export default function Home() {
         <SideBar />
       </div>
       <div className={styles.main_container}>
-        <div className={styles.search_area}>
-          <SearchBar />
-        </div>
-        <div className={styles.content_area}>
-          <Content />
-        </div>
+        <Main />
       </div>
     </div>
   )

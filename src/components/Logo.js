@@ -9,7 +9,7 @@ export default function Logo() {
         width={70}
         height={70}
         loading="lazy"
-        placeholder="blur"
+        placeholder="empty"
       />
     </div>
   )

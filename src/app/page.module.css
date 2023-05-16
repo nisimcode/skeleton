@@ -36,19 +36,5 @@
   width: 100%;
 }
 
-.search_area {
-  border: 2px dotted red;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-
-.content_area {
-  border: 2px dotted red;
-  display: flex;
-  flex-wrap: wrap;
-  grid-auto-flow: column;
-
-}
 
 
